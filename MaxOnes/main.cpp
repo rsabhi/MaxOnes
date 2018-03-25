@@ -8,6 +8,7 @@
 
 #include <iostream>
 #include <vector>
+#include "Maxone_opti.cpp"
 using namespace std;
 
 class Solution {
@@ -31,6 +32,15 @@ public:
     }
 };
 int main(int argc, const char * argv[]) {
+    
+    vector<int> nums {1, 1, 1, 1, 0, 1, 1,1, 1,1,1,1,1,1,1};
+    
+   // Solution mysln;
+   // int result =  mysln.findMaxConsecutiveOnes(nums);
+    
+    Solution_optimize optimum;
+    int result = optimum.findMaxConsecutiveOnes(nums);
+    cout << result;
     
     return 0;
 }

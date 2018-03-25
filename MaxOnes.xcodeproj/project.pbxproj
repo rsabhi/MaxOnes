@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		34A946302067B36100B24971 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34A9462F2067B36100B24971 /* main.cpp */; };
+		34E7A9392067D494008FD82E /* Maxone_opti.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 34E7A9382067D494008FD82E /* Maxone_opti.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		34A9462C2067B36100B24971 /* MaxOnes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxOnes; sourceTree = BUILT_PRODUCTS_DIR; };
 		34A9462F2067B36100B24971 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		34E7A9382067D494008FD82E /* Maxone_opti.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maxone_opti.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				34A9462F2067B36100B24971 /* main.cpp */,
+				34E7A9382067D494008FD82E /* Maxone_opti.cpp */,
 			);
 			path = MaxOnes;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34A946302067B36100B24971 /* main.cpp in Sources */,
+				34E7A9392067D494008FD82E /* Maxone_opti.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
