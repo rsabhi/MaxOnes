@@ -33,7 +33,7 @@ public:
 };
 int main(int argc, const char * argv[]) {
     
-    vector<int> nums {1, 1, 1, 1, 0, 1, 1,1, 1,1,1,1,1,1,1};
+    vector<int> nums {1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 1};
     
    // Solution mysln;
    // int result =  mysln.findMaxConsecutiveOnes(nums);
