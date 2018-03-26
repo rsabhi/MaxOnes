@@ -13,6 +13,20 @@ using namespace std;
 class Solution_optimize {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
+        
+        int max_l = 0;
+        int n = nums.size();
+        int temp = max_l;
+        for (int i = 0; i < n; ++i) {
+            if (nums[i] == 1) {
+                max_l ++;
+            } else {
+                temp = max(max_l, temp);;
+                max_l = 0;
+            }
+        }
+        return max_l = max(max_l, temp);
+    }
     /*int max_l = 0;
     int n = nums.size();
     int i = 0;
@@ -35,12 +49,13 @@ public:
         return max_l;
     }
     */
+        /*
         int max_cnt = 0, cnt = 0;
         for (auto n : nums) {
             if (n == 1) max_cnt = max(++cnt, max_cnt);
             else cnt = 0;
         }
         return max_cnt;
-    }
+    }*/
     
 };
