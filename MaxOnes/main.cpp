@@ -12,6 +12,8 @@
 using namespace std;
 
 // this is one of the best solution and took only 38 ms
+// OLog(n)
+
 class Solution {
 public:
     int findMaxConsecutiveOnes(vector<int>& nums) {
